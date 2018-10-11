@@ -12,6 +12,7 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install certbot 
 ```
+
 [Link](https://certbot.eff.org/lets-encrypt/ubuntuxenial-other)
 
 Download cert
@@ -22,6 +23,14 @@ sudo certbot certonly --manual
 ```
 
 [Link](https://certbot.eff.org/docs/using.html#manual)
+
+
+Install OpenSSL
+----
+
+```Bash
+sudo apt-get install openssl
+```
 
 Convert from pem to pfx
 ----
