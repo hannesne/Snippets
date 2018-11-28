@@ -13,3 +13,5 @@ To run this executable, PowerShell needs to be instructed explicitly to execute 
 ```powershell
 & "C:\Program Files (x86)\DjVuZone\DjVuLibre\djvm.exe"
 ```
+
+[Credit to codeyarns.com](https://codeyarns.com/2012/08/06/run-an-executable-whose-path-has-spaces-in-powershell/)
