@@ -1,0 +1,7 @@
+FROM microsoft/dotnet:2.2-sdk
+RUN apt-get update && apt-get install unzip
+RUN wget -q https://github.com/Azure/azure-functions-core-tools/releases/download/2.4.317/Azure.Functions.Cli.linux-x64.2.4.317.zip
+RUN unzip -d azure-functions-cli Azure.Functions.Cli.linux-x64.2.4.317.zip
+RUN rm Azure.Functions.Cli.linux-x64.2.4.317.zip
+RUN cd azure-functions-cli && chmod +x func
+
